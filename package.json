@@ -1,0 +1,14 @@
+{
+  "name": "cypres-demo",
+  "version": "1.0.0",
+  "description": "cypres demo test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rudra chhanda",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^5.6.0"
+  }
+}

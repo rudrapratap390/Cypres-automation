@@ -1,0 +1,20 @@
+/// <reference types="Cypress" />
+
+describe('demo test',()=>{
+
+    it('visit url',()=>{
+        cy.visit('https://example.cypress.io/')
+
+    })
+
+    it('perform operation',()=>{
+        cy.contains('type').click();
+        cy.url().should('include', '/commands/actions')
+        cy.get('.action-email').type('fake@email.com').should('have.value','fake@email.com')
+
+    })
+
+        
+        
+   
+})
